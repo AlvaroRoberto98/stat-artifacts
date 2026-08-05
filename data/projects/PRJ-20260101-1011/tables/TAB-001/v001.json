@@ -1,0 +1,154 @@
+{
+  "storage_format_version": "1.0",
+  "project": {
+    "id": "PRJ-20260101-1011",
+    "name": "TRABALHO PTERIGIO X COLA",
+    "year": 2026,
+    "analyst": "Ana Karine"
+  },
+  "artifact": {
+    "id": "TAB-001",
+    "type": "table",
+    "title": "Características demográficas iniciais (Baseline) dos pacientes submetidos à cirurgia de pterígio por técnica de fixação.",
+    "version": 1
+  },
+  "content": {
+    "format_version": "1.0",
+    "source_id": "tab:baseline",
+    "title": "Características demográficas iniciais (Baseline) dos pacientes submetidos à cirurgia de pterígio por técnica de fixação.",
+    "columns": [
+      {
+        "id": "variavel",
+        "name": "Variável",
+        "visible": true
+      },
+      {
+        "id": "sutura",
+        "name": "Sutura (n = 12)",
+        "visible": true
+      },
+      {
+        "id": "cola",
+        "name": "Cola (n = 35)",
+        "visible": true
+      },
+      {
+        "id": "p_valor",
+        "name": "p-valor",
+        "visible": true
+      }
+    ],
+    "rows": [
+      {
+        "id": "idade",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "variavel": {
+            "value": "Idade (anos), média ± DP",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "52,10 ± 11,40",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "53,60 ± 8,97",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "0,640",
+            "footnote_ids": [
+              "fn_a"
+            ]
+          }
+        }
+      },
+      {
+        "id": "sexo",
+        "type": "group",
+        "level": 0,
+        "cells": {
+          "variavel": {
+            "value": "Sexo, n (%)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "0,737",
+            "footnote_ids": [
+              "fn_b"
+            ]
+          }
+        }
+      },
+      {
+        "id": "sexo_feminino",
+        "type": "data",
+        "level": 1,
+        "parent_id": "sexo",
+        "cells": {
+          "variavel": {
+            "value": "Feminino",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "8 (66,7%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "20 (57,1%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "sexo_masculino",
+        "type": "data",
+        "level": 1,
+        "parent_id": "sexo",
+        "cells": {
+          "variavel": {
+            "value": "Masculino",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "4 (33,3%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "15 (42,9%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      }
+    ],
+    "footnotes": [
+      {
+        "id": "fn_a",
+        "symbol": "a",
+        "text": "Teste t de Student para amostras independentes"
+      },
+      {
+        "id": "fn_b",
+        "symbol": "b",
+        "text": "Teste Exato de Fisher"
+      }
+    ]
+  }
+}
