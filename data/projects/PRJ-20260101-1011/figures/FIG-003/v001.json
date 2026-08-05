@@ -1,0 +1,332 @@
+{
+  "storage_format_version": "1.0",
+  "project": {
+    "id": "PRJ-20260101-1011",
+    "name": "TRABALHO PTERIGIO X COLA",
+    "year": 2026,
+    "analyst": "Ana Karine"
+  },
+  "artifact": {
+    "id": "FIG-003",
+    "type": "figure",
+    "title": "Índice de Conforto Pós-Operatório aos 15 dias",
+    "version": 1
+  },
+  "content": {
+    "format_version": "1.0",
+    "type": "stacked_bar_percent",
+    "title": "Índice de Conforto Pós-Operatório aos 15 dias",
+    "mapping": {
+      "x": "tecnica",
+      "fill": "conforto_estrito"
+    },
+    "parameters": {
+      "position": "fill",
+      "width": 0.5
+    },
+    "axes": {
+      "x": {
+        "title": "Técnica de Fixação"
+      },
+      "y": {
+        "title": "Proporção de Pacientes (%)",
+        "format": "percent"
+      }
+    },
+    "series": [
+      {
+        "id": "desconforto_sintomatico",
+        "source_name": "0",
+        "name": "Desconforto / Sintomático",
+        "visible": true,
+        "color": "coral2"
+      },
+      {
+        "id": "conforto_estrito",
+        "source_name": "1",
+        "name": "Conforto Estrito",
+        "visible": true,
+        "color": "seagreen4"
+      }
+    ],
+    "legend": {
+      "title": "Status"
+    },
+    "data": [
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_001"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_002"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_003"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_004"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_005"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_006"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_007"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_008"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_009"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_010"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_011"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_012"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_013"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_014"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_015"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_016"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_017"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_018"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_019"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_020"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_021"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_022"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_023"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_024"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_025"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_026"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_027"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_028"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_029"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_030"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_031"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_032"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_033"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_034"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_035"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_036"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_037"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_038"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_039"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_040"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_041"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_042"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_043"
+      },
+      {
+        "tecnica": "Cola",
+        "conforto_estrito": 1,
+        "series_id": "conforto_estrito",
+        "observation_id": "obs_044"
+      },
+      {
+        "tecnica": "Sutura",
+        "conforto_estrito": 0,
+        "series_id": "desconforto_sintomatico",
+        "observation_id": "obs_045"
+      }
+    ],
+    "options": {
+      "position": "fill",
+      "width": 0.5
+    }
+  }
+}
