@@ -15,6 +15,14 @@
             1,
             2
           ]
+        },
+        {
+          "id": "TAB-002",
+          "title": "Indicadores de sintomatologia ocular e desfecho composto de conforto aos 15 dias pós-operatórios.",
+          "latest_version": 1,
+          "versions": [
+            1
+          ]
         }
       ],
       "figures": [
