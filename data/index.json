@@ -41,6 +41,15 @@
           "versions": [
             1
           ]
+        },
+        {
+          "id": "FIG-002",
+          "title": "Comparação de Medianas",
+          "latest_version": 1,
+          "versions": [
+            1
+          ],
+          "type": "boxplot"
         }
       ]
     }
