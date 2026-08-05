@@ -48,8 +48,16 @@
           "latest_version": 1,
           "versions": [
             1
+          ]
+        },
+        {
+          "id": "FIG-003",
+          "title": "Índice de Conforto Pós-Operatório aos 15 dias",
+          "latest_version": 1,
+          "versions": [
+            1
           ],
-          "type": "boxplot"
+          "type": "stacked_bar_percent"
         }
       ]
     }
