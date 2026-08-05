@@ -1,0 +1,226 @@
+{
+  "storage_format_version": "1.0",
+  "project": {
+    "id": "PRJ-20260101-1011",
+    "name": "TRABALHO PTERIGIO X COLA",
+    "year": 2026,
+    "analyst": "Ana Karine"
+  },
+  "artifact": {
+    "id": "FIG-001",
+    "type": "figure",
+    "title": "Densidade: Tempo Cirúrgico",
+    "version": 1
+  },
+  "content": {
+    "format_version": "1.0",
+    "type": "density",
+    "title": "Densidade: Tempo Cirúrgico",
+    "mapping": {
+      "x": "tempo_cir",
+      "group": "tecnica",
+      "series": "series_id"
+    },
+    "parameters": {
+      "alpha": 0.4
+    },
+    "series": [
+      {
+        "id": "cola",
+        "source_name": "Cola",
+        "name": "Cola",
+        "visible": true,
+        "color": "#1f77b4"
+      },
+      {
+        "id": "sutura",
+        "source_name": "Sutura",
+        "name": "Sutura",
+        "visible": true,
+        "color": "#ff7f0e"
+      }
+    ],
+    "data": [
+      {
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_001"
+      },
+      {
+        "tempo_cir": 12,
+        "series_id": "cola",
+        "observation_id": "obs_002"
+      },
+      {
+        "tempo_cir": 12,
+        "series_id": "cola",
+        "observation_id": "obs_003"
+      },
+      {
+        "tempo_cir": 11,
+        "series_id": "cola",
+        "observation_id": "obs_004"
+      },
+      {
+        "tempo_cir": 14,
+        "series_id": "cola",
+        "observation_id": "obs_005"
+      },
+      {
+        "tempo_cir": 14,
+        "series_id": "cola",
+        "observation_id": "obs_006"
+      },
+      {
+        "tempo_cir": 14,
+        "series_id": "cola",
+        "observation_id": "obs_007"
+      },
+      {
+        "tempo_cir": 11,
+        "series_id": "cola",
+        "observation_id": "obs_008"
+      },
+      {
+        "tempo_cir": 9,
+        "series_id": "cola",
+        "observation_id": "obs_009"
+      },
+      {
+        "tempo_cir": 17,
+        "series_id": "cola",
+        "observation_id": "obs_010"
+      },
+      {
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_011"
+      },
+      {
+        "tempo_cir": 9,
+        "series_id": "cola",
+        "observation_id": "obs_012"
+      },
+      {
+        "tempo_cir": 9,
+        "series_id": "cola",
+        "observation_id": "obs_013"
+      },
+      {
+        "tempo_cir": 8,
+        "series_id": "cola",
+        "observation_id": "obs_014"
+      },
+      {
+        "tempo_cir": 19,
+        "series_id": "sutura",
+        "observation_id": "obs_015"
+      },
+      {
+        "tempo_cir": 26,
+        "series_id": "sutura",
+        "observation_id": "obs_016"
+      },
+      {
+        "tempo_cir": 12,
+        "series_id": "cola",
+        "observation_id": "obs_017"
+      },
+      {
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_018"
+      },
+      {
+        "tempo_cir": 14,
+        "series_id": "sutura",
+        "observation_id": "obs_019"
+      },
+      {
+        "tempo_cir": 19,
+        "series_id": "sutura",
+        "observation_id": "obs_020"
+      },
+      {
+        "tempo_cir": 15,
+        "series_id": "sutura",
+        "observation_id": "obs_021"
+      },
+      {
+        "tempo_cir": 13,
+        "series_id": "cola",
+        "observation_id": "obs_022"
+      },
+      {
+        "tempo_cir": 14,
+        "series_id": "sutura",
+        "observation_id": "obs_023"
+      },
+      {
+        "tempo_cir": 18,
+        "series_id": "cola",
+        "observation_id": "obs_024"
+      },
+      {
+        "tempo_cir": 16,
+        "series_id": "sutura",
+        "observation_id": "obs_025"
+      },
+      {
+        "tempo_cir": 13,
+        "series_id": "cola",
+        "observation_id": "obs_026"
+      },
+      {
+        "tempo_cir": 8,
+        "series_id": "cola",
+        "observation_id": "obs_027"
+      },
+      {
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_028"
+      },
+      {
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_029"
+      },
+      {
+        "tempo_cir": 7,
+        "series_id": "sutura",
+        "observation_id": "obs_030"
+      },
+      {
+        "tempo_cir": 12,
+        "series_id": "sutura",
+        "observation_id": "obs_031"
+      },
+      {
+        "tempo_cir": 20,
+        "series_id": "sutura",
+        "observation_id": "obs_032"
+      },
+      {
+        "tempo_cir": 13,
+        "series_id": "cola",
+        "observation_id": "obs_033"
+      },
+      {
+        "tempo_cir": 7,
+        "series_id": "cola",
+        "observation_id": "obs_034"
+      },
+      {
+        "tempo_cir": 7,
+        "series_id": "sutura",
+        "observation_id": "obs_035"
+      }
+    ],
+    "options": {
+      "alpha": 0.4,
+      "adjust": 1,
+      "show_line": true
+    }
+  }
+}
