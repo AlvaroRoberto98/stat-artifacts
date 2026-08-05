@@ -1,0 +1,173 @@
+{
+  "storage_format_version": "1.0",
+  "project": {
+    "id": "PRJ-20260101-1011",
+    "name": "TRABALHO PTERIGIO X COLA",
+    "year": 2026,
+    "analyst": "Ana Karine"
+  },
+  "artifact": {
+    "id": "TAB-003",
+    "type": "table",
+    "title": "Demonstrativo financeiro mediano e margem hospitalar por técnica de fixação (Microcusteio real).",
+    "version": 1
+  },
+  "content": {
+    "format_version": "1.0",
+    "source_id": "tab:economia",
+    "title": "Demonstrativo financeiro mediano e margem hospitalar por técnica de fixação (Microcusteio real).",
+    "columns": [
+      {
+        "id": "componente_financeiro",
+        "name": "Componente Financeiro",
+        "visible": true
+      },
+      {
+        "id": "sutura_convencional",
+        "name": "Sutura Convencional",
+        "visible": true
+      },
+      {
+        "id": "cola_de_fibrina",
+        "name": "Cola de Fibrina",
+        "visible": true
+      }
+    ],
+    "rows": [
+      {
+        "id": "repasse_recebido_sus",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "componente_financeiro": {
+            "value": "Repasse Recebido (SUS)",
+            "footnote_ids": []
+          },
+          "sutura_convencional": {
+            "value": "R$ 209,55",
+            "footnote_ids": []
+          },
+          "cola_de_fibrina": {
+            "value": "R$ 209,55",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "custo_direto_do_insumo",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "componente_financeiro": {
+            "value": "Custo Direto do Insumo",
+            "footnote_ids": []
+          },
+          "sutura_convencional": {
+            "value": "R$ 107,66",
+            "footnote_ids": []
+          },
+          "cola_de_fibrina": {
+            "value": "R$ 118,41",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "honorio_medico_fixo",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "componente_financeiro": {
+            "value": "Honorário Médico Fixo",
+            "footnote_ids": []
+          },
+          "sutura_convencional": {
+            "value": "R$ 80,00",
+            "footnote_ids": []
+          },
+          "cola_de_fibrina": {
+            "value": "R$ 80,00",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "tempo_cirurgico_mediano",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "componente_financeiro": {
+            "value": "Tempo Cirúrgico Mediano",
+            "footnote_ids": []
+          },
+          "sutura_convencional": {
+            "value": "15,00 min (0,25h)",
+            "footnote_ids": []
+          },
+          "cola_de_fibrina": {
+            "value": "11,00 min (0,18h)",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "custo_de_ocupacao_do_bloco",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "componente_financeiro": {
+            "value": "Custo de Ocupação do Bloco",
+            "footnote_ids": []
+          },
+          "sutura_convencional": {
+            "value": "R$ 7,22",
+            "footnote_ids": []
+          },
+          "cola_de_fibrina": {
+            "value": "R$ 5,30",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "custo_total_mediano",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "componente_financeiro": {
+            "value": "Custo Total Mediano",
+            "footnote_ids": []
+          },
+          "sutura_convencional": {
+            "value": "R$ 194,88",
+            "footnote_ids": []
+          },
+          "cola_de_fibrina": {
+            "value": "R$ 203,71",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "margem_hospitalar_liquida",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "componente_financeiro": {
+            "value": "Margem Hospitalar Líquida",
+            "footnote_ids": []
+          },
+          "sutura_convencional": {
+            "value": "R$ 14,67",
+            "footnote_ids": []
+          },
+          "cola_de_fibrina": {
+            "value": "R$ 5,84",
+            "footnote_ids": []
+          }
+        }
+      }
+    ],
+    "footnotes": []
+  }
+}
