@@ -1,0 +1,282 @@
+{
+  "storage_format_version": "1.0",
+  "project": {
+    "id": "PRJ-20260101-1011",
+    "name": "TRABALHO PTERIGIO X COLA",
+    "year": 2026,
+    "analyst": "Ana Karine"
+  },
+  "artifact": {
+    "id": "FIG-002",
+    "type": "figure",
+    "title": "Comparação de Medianas",
+    "version": 1
+  },
+  "content": {
+    "format_version": "1.0",
+    "type": "boxplot",
+    "title": "Comparação de Medianas",
+    "mapping": {
+      "x": "tecnica",
+      "y": "tempo_cir",
+      "group": "tecnica",
+      "series": "series_id"
+    },
+    "parameters": {
+      "width": 0.6,
+      "alpha": 0.8,
+      "outlier_shape": 16,
+      "outlier_size": 2,
+      "outlier_color": "black",
+      "show_legend": false
+    },
+    "axes": {
+      "x": {
+        "title": "Técnica de Fixação",
+        "labels": {
+          "Sutura": "Sutura",
+          "Cola": "Cola de Fibrina"
+        }
+      },
+      "y": {
+        "title": "Tempo Operatório (minutos)"
+      }
+    },
+    "series": [
+      {
+        "id": "cola",
+        "source_name": "Cola",
+        "name": "Cola de Fibrina",
+        "visible": true,
+        "color": "#315A7D"
+      },
+      {
+        "id": "sutura",
+        "source_name": "Sutura",
+        "name": "Sutura",
+        "visible": true,
+        "color": "#B42318"
+      }
+    ],
+    "data": [
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_001"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 12,
+        "series_id": "cola",
+        "observation_id": "obs_002"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 12,
+        "series_id": "cola",
+        "observation_id": "obs_003"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 11,
+        "series_id": "cola",
+        "observation_id": "obs_004"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 14,
+        "series_id": "cola",
+        "observation_id": "obs_005"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 14,
+        "series_id": "cola",
+        "observation_id": "obs_006"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 14,
+        "series_id": "cola",
+        "observation_id": "obs_007"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 11,
+        "series_id": "cola",
+        "observation_id": "obs_008"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 9,
+        "series_id": "cola",
+        "observation_id": "obs_009"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 17,
+        "series_id": "cola",
+        "observation_id": "obs_010"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_011"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 9,
+        "series_id": "cola",
+        "observation_id": "obs_012"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 9,
+        "series_id": "cola",
+        "observation_id": "obs_013"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 8,
+        "series_id": "cola",
+        "observation_id": "obs_014"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 19,
+        "series_id": "sutura",
+        "observation_id": "obs_015"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 26,
+        "series_id": "sutura",
+        "observation_id": "obs_016"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 12,
+        "series_id": "cola",
+        "observation_id": "obs_017"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_018"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 14,
+        "series_id": "sutura",
+        "observation_id": "obs_019"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 19,
+        "series_id": "sutura",
+        "observation_id": "obs_020"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 15,
+        "series_id": "sutura",
+        "observation_id": "obs_021"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 13,
+        "series_id": "cola",
+        "observation_id": "obs_022"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 14,
+        "series_id": "sutura",
+        "observation_id": "obs_023"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 18,
+        "series_id": "cola",
+        "observation_id": "obs_024"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 16,
+        "series_id": "sutura",
+        "observation_id": "obs_025"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 13,
+        "series_id": "cola",
+        "observation_id": "obs_026"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 8,
+        "series_id": "cola",
+        "observation_id": "obs_027"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_028"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 10,
+        "series_id": "cola",
+        "observation_id": "obs_029"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 7,
+        "series_id": "sutura",
+        "observation_id": "obs_030"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 12,
+        "series_id": "sutura",
+        "observation_id": "obs_031"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 20,
+        "series_id": "sutura",
+        "observation_id": "obs_032"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 13,
+        "series_id": "cola",
+        "observation_id": "obs_033"
+      },
+      {
+        "tecnica": "Cola",
+        "tempo_cir": 7,
+        "series_id": "cola",
+        "observation_id": "obs_034"
+      },
+      {
+        "tecnica": "Sutura",
+        "tempo_cir": 7,
+        "series_id": "sutura",
+        "observation_id": "obs_035"
+      }
+    ],
+    "options": {
+      "width": 0.6,
+      "alpha": 0.8,
+      "outlier_shape": 16,
+      "outlier_size": 2,
+      "outlier_color": "black",
+      "show_legend": false
+    }
+  }
+}
