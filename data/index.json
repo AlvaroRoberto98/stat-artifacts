@@ -23,6 +23,14 @@
           "versions": [
             1
           ]
+        },
+        {
+          "id": "TAB-003",
+          "title": "Demonstrativo financeiro mediano e margem hospitalar por técnica de fixação (Microcusteio real).",
+          "latest_version": 1,
+          "versions": [
+            1
+          ]
         }
       ],
       "figures": [
