@@ -10,10 +10,9 @@
         {
           "id": "TAB-001",
           "title": "Características demográficas iniciais (Baseline) dos pacientes submetidos à cirurgia de pterígio por técnica de fixação.",
-          "latest_version": 2,
+          "latest_version": 1,
           "versions": [
-            1,
-            2
+            1
           ]
         }
       ],
