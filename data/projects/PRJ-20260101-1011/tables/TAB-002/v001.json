@@ -1,0 +1,300 @@
+{
+  "storage_format_version": "1.0",
+  "project": {
+    "id": "PRJ-20260101-1011",
+    "name": "TRABALHO PTERIGIO X COLA",
+    "year": 2026,
+    "analyst": "Ana Karine"
+  },
+  "artifact": {
+    "id": "TAB-002",
+    "type": "table",
+    "title": "Indicadores de sintomatologia ocular e desfecho composto de conforto aos 15 dias pós-operatórios.",
+    "version": 1
+  },
+  "content": {
+    "format_version": "1.0",
+    "source_id": "tab:conforto",
+    "title": "Indicadores de sintomatologia ocular e desfecho composto de conforto aos 15 dias pós-operatórios.",
+    "columns": [
+      {
+        "id": "variavel",
+        "name": "Variável",
+        "visible": true
+      },
+      {
+        "id": "sutura",
+        "name": "Sutura (n = 12)",
+        "visible": true
+      },
+      {
+        "id": "cola",
+        "name": "Cola (n = 35)",
+        "visible": true
+      },
+      {
+        "id": "p_valor",
+        "name": "p-valor",
+        "visible": true
+      }
+    ],
+    "rows": [
+      {
+        "id": "dor_vas",
+        "type": "data",
+        "level": 0,
+        "cells": {
+          "variavel": {
+            "value": "Dor VAS (0-10), mediana [IQR]",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "0,0 [0,0 -- 0,0]",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "0,0 [0,0 -- 0,0]",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "0,955",
+            "footnote_ids": [
+              "fn_a"
+            ]
+          }
+        }
+      },
+      {
+        "id": "uso_de_analgesico",
+        "type": "group",
+        "level": 0,
+        "cells": {
+          "variavel": {
+            "value": "Uso de Analgésico, n (%)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "0,720",
+            "footnote_ids": [
+              "fn_b"
+            ]
+          }
+        }
+      },
+      {
+        "id": "uso_de_analgesico_nao",
+        "type": "data",
+        "level": 1,
+        "parent_id": "uso_de_analgesico",
+        "cells": {
+          "variavel": {
+            "value": "Não (N)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "6 (50,0%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "21 (60,0%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "uso_de_analgesico_sim",
+        "type": "data",
+        "level": 1,
+        "parent_id": "uso_de_analgesico",
+        "cells": {
+          "variavel": {
+            "value": "Sim (S)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "6 (50,0%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "14 (40,0%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "sensacao_de_corpo_estranho",
+        "type": "group",
+        "level": 0,
+        "cells": {
+          "variavel": {
+            "value": "Sensação de Corpo Estranho, n (%)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "0,281",
+            "footnote_ids": [
+              "fn_b"
+            ]
+          }
+        }
+      },
+      {
+        "id": "sensacao_de_corpo_estranho_nao",
+        "type": "data",
+        "level": 1,
+        "parent_id": "sensacao_de_corpo_estranho",
+        "cells": {
+          "variavel": {
+            "value": "Não (N)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "4 (40,0%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "22 (62,9%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "sensacao_de_corpo_estranho_sim",
+        "type": "data",
+        "level": 1,
+        "parent_id": "sensacao_de_corpo_estranho",
+        "cells": {
+          "variavel": {
+            "value": "Sim (S)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "6 (60,0%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "13 (37,1%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "conforto_estrito",
+        "type": "group",
+        "level": 0,
+        "cells": {
+          "variavel": {
+            "value": "Conforto Estrito, n (%)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "0,154",
+            "footnote_ids": [
+              "fn_b"
+            ]
+          }
+        }
+      },
+      {
+        "id": "conforto_estrito_nao_atendido",
+        "type": "data",
+        "level": 1,
+        "parent_id": "conforto_estrito",
+        "cells": {
+          "variavel": {
+            "value": "Não Atendido (0)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "8 (80,0%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "18 (51,4%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      },
+      {
+        "id": "conforto_estrito_sucesso_absoluto",
+        "type": "data",
+        "level": 1,
+        "parent_id": "conforto_estrito",
+        "cells": {
+          "variavel": {
+            "value": "Sucesso Absoluto (1)",
+            "footnote_ids": []
+          },
+          "sutura": {
+            "value": "2 (20,0%)",
+            "footnote_ids": []
+          },
+          "cola": {
+            "value": "17 (48,6%)",
+            "footnote_ids": []
+          },
+          "p_valor": {
+            "value": "",
+            "footnote_ids": []
+          }
+        }
+      }
+    ],
+    "footnotes": [
+      {
+        "id": "fn_a",
+        "symbol": "a",
+        "text": "Teste de Mann-Whitney (Wilcoxon rank sum)"
+      },
+      {
+        "id": "fn_b",
+        "symbol": "b",
+        "text": "Teste Exato de Fisher"
+      }
+    ]
+  }
+}
