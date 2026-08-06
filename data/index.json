@@ -56,8 +56,25 @@
           "latest_version": 1,
           "versions": [
             1
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "analyst": "Ana Karine",
+      "project_id": "PRJ-20260714-4649",
+      "project_name": "SURGICAL AND VISUAL OUTCOMES OF 3-PIECE INTRAOCULAR LENS IMPLANTATION WITH PARTIAL HAPTICS AMPUTATION IN CHILDREN WITH CATARACT AND MICROSPHEROPHAKIA",
+      "tables": [],
+      "figures": [
+        {
+          "id": "FIG-001",
+          "title": "Figura 1 (Controle) – Equivalente Esférico (SE) ao longo do tempo",
+          "latest_version": 1,
+          "versions": [
+            1
           ],
-          "type": "stacked_bar_percent"
+          "type": "faceted_scatter"
         }
       ]
     }
