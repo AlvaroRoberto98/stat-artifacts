@@ -1,4 +1,4 @@
-build_time=2026-08-06 08:12:24 -0300
-app_md5=85ae6aa3a6a642556aad1cf970286160
+build_time=2026-08-06 08:18:36 -0300
+app_md5=52e2ac0a6440d7056244a4d80274866e
 mode=public
 feature=faceted_scatter_v3
