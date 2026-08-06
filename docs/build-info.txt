@@ -1,4 +1,0 @@
-build_time=2026-08-06 08:32:21 -0300
-app_md5=52e2ac0a6440d7056244a4d80274866e
-mode=public
-feature=faceted_scatter_v3
